@@ -1,10 +1,10 @@
-import MainLayout from "./layout/MainLayout"
-import Home from "./pages/home"
+import MainLayout from "./layout/mainLayout"
+import Hero from "./pages/home"
 
 function App() {
   return (
     <MainLayout>
-      <Home />
+      <Hero />
     </MainLayout>
   )
 }
